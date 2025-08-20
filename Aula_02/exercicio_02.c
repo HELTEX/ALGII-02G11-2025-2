@@ -5,7 +5,7 @@ int main() {
     printf("Salário Bruto: ");
     scanf("%lf", &salario_bruto);
     double imposto;
-    if (salario_bruto <= 2000.00) {
+    if (salario_bruto <= 2001.00) {
         imposto = 0.0;
     }
     else if (salario_bruto <= 4000.00) {
